@@ -42,7 +42,7 @@ const Button = () => {
 
         <div className="z-10 bg-theme-g absolute flex justify-center items-center w-10 h-10 rounded-full  -bottom-3 -left-5 -translate-y-14 lg:-translate-y-16 -translate-x-10  opacity-0 group-hover:opacity-100 transition-opacity duration-300 md:hover:scale-125">
           <a
-            href={`whatsapp://send?phone=+34623985465&text=${
+            href={`whatsapp://send?phone=+34623937593&text=${
               language === "pt-br"
                 ? "Olá, eu quero saber mais!"
                 : "Hola, quiero saber más!"

@@ -25,9 +25,9 @@ const CardServices = ({ data }: Props) => {
         {data.message}
       </h3>
       <a
-        href={`whatsapp://send?phone=+34623985465&text=${data.message}`}
+        href={`whatsapp://send?phone=+34623937593&text=${data.message}`}
         className="w-full h-9 rounded-lg duration-300 group bg-purple-400 flex justify-center items-center gap-2 hover:bg-purple-600 text-white font-bold text-lg"
-        onClick={() => fbq("track", "Button_Whatsapp_Light")}
+        onClick={() => fbq("track", `Button_Whatsapp_Card_${data.message}`)}
       >
         <FaWhatsapp className="duration-300 group-hover:text-green-400" />
         {data.button}
