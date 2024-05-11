@@ -1,0 +1,2 @@
+src/pages/pespective/assets/to/02.mov filter=lfs diff=lfs merge=lfs -text
+src/pages/pespective/assets/02.mov filter=lfs diff=lfs merge=lfs -text

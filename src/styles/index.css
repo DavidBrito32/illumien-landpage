@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+/* IMPORTANT: In "styled" mode you must add the PrimeReact Theme here. Do NOT include in "unstyled" mode */
+@import 'primereact/resources/themes/lara-light-blue/theme.css' layer(primereact);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    font-family: "Comic Neue", cursive;
+    outline: none ;
+}
+
+@keyframes slideInRotate {
+    0% {
+        transform: translate(0%, 0%);
+    }
+    25% {
+        transform: translate(50%, 0%);
+    }
+    50% {
+        transform: translate(50%, 50%);
+    }
+    75% {
+        transform: translate(0%, 50%);
+    }
+    100% {
+        transform: translate(0%, 0%);
+    }
+}
+
+@keyframes slideOutRotate {
+    0% {
+        transform: translate(0%, 0%);
+    }
+    25% {
+        transform: translate(-40%, 0%) ;
+    }
+    50% {
+        transform: translate(-40%, -40%);
+    }
+    75% {
+        transform: translate(0%, -40%) ;
+    }
+    100% {
+        transform: translate(0%, 0%);
+    }
+}
+
+@keyframes slideOutZRotate {
+    0% {
+        transform: translate(0%, 0%);
+    }
+    25% {
+        transform: translate(40%, 0%);
+    }
+    50% {
+        transform: translate(40%, 40%);
+    }
+    75% {
+        transform: translate(0%, 40%);
+    }
+    100% {
+        transform: translate(0%, 0%);
+    }
+}
+
+
+@keyframes Worlds {
+    0%, 20% {
+        content: "Criatividade"
+    }
+    21%, 40% {
+        content: "Estratégias"
+    }
+    41%, 60% {
+        content: "Criatividade";
+    }
+    61%, 80% {
+        content: "Estratégias";
+    }
+    81%, 100% {
+        content: "Criatividade";
+    }
+}
+
+
+@keyframes WorldsSpanish {
+    0%, 20% {
+        content: "Creatividad"
+    }
+    21%, 40% {
+        content: "Estrategias"
+    }
+    41%, 60% {
+        content: "Creatividad";
+    }
+    61%, 80% {
+        content: "Estrategias";
+    }
+    81%, 100% {
+        content: "Creatividad";
+    }
+}
+
+@keyframes cursor {
+    0%{
+        border-left: 2px solid #212121;
+    }
+}
+
+@keyframes digita {
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95%{
+        width: 0;
+    }
+
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+        width: calc(100% + 8px);
+    }
+}
+
