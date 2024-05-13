@@ -3,7 +3,7 @@ import estratergia from "./assets/estratergias.jpg";
 import identidade from "./assets/identidade_visual.webp";
 import web from "./assets/web_designer.jpg";
 import foto from "./assets/fotografia.png";
-import redesSociais from "./assets/gestão de redes sociais.jpg";
+import redesSociais from "./assets/gestao.png";
 import photo from "./assets/nova foto.png";
 import { useContext } from "react";
 import { FlagsContext } from "../../contexts/flagsContext";
